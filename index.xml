@@ -6,10 +6,23 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Mar 2020 02:07:53 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2020 02:36:59 +0800</lastBuildDate>
     
 	<atom:link href="https://lucasgao2000.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>层次聚类</title>
+      <link>https://lucasgao2000.github.io/post/%E5%B1%82%E6%AC%A1%E8%81%9A%E7%B1%BB/</link>
+      <pubDate>Mon, 09 Mar 2020 02:36:59 +0800</pubDate>
+      
+      <guid>https://lucasgao2000.github.io/post/%E5%B1%82%E6%AC%A1%E8%81%9A%E7%B1%BB/</guid>
+      <description>层次聚类 步骤  把所有的点都看作一个簇 计算所有簇之间的距离 选取最小距离 把距离最小的两个簇合成一个簇 重复以上步骤，直到簇只剩下k个为止  Cluster 簇的实体类
+保存簇中重要的信息
+  int size 簇的大小    Heap heap 一个最小堆，来取最小值    int id 簇的标识    ArrayList&amp;lt;ArrayList&amp;lt;Double&amp;gt;&amp;gt; childs 簇中所有的元素    ArrayList&amp;lt;Integer&amp;gt; childIndexSet 簇的孩子集合    Tuple heap中存储的元素
+保存簇之间的距离信息，三元组
+   Cluster a a簇     Cluster b b簇     Double distance 簇之间的距离    Tuple实现了Comparable接口方便比较,具体只比较distance</description>
+    </item>
     
     <item>
       <title>Blog</title>
